@@ -78,7 +78,7 @@ class Property
     private $address;
 
     /**
-     * @Assert\Range("/^[0-9]{5}$/")
+     * @Assert\Regex("/^[0-9]{5}$/")
      * @ORM\Column(type="string", length=255)
      */
     private $postal_code;
